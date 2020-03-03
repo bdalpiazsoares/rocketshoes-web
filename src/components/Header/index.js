@@ -25,11 +25,10 @@ export default function Header() {
         <div>
           <strong>My Cart</strong>
           <span>
-            {cartSize === 1 ? `${cartSize} product` : `${cartSize} products`}
+            {cartSize === 1 ? `${cartSize} item` : `${cartSize} itens`}
           </span>
         </div>
         <MdShoppingCart size={36} color="#FFF" />
-        <span>{cartSize}</span>
       </Cart>
     </Container>
   );
